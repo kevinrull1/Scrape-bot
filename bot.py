@@ -11,6 +11,6 @@ price = soup.find("div", class_="formatted-price relative")
 for pprice in price.contents[0]:
 
   #  if "3149" in pprice:
-    #   price = pprice
+   
 
     print(pprice)
